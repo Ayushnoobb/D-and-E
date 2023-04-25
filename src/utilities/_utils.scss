@@ -1,0 +1,60 @@
+.bg-yellow-gradient {
+  background: radial-gradient(
+    87.81% 85.49% at 96.08% 92.73%,
+    #ffbf00 0%,
+    #fed947 100%
+  );
+}
+.section-wrapper {
+  padding: 80px 0;
+}
+h2.heading {
+  font-family: "Noto Sans";
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 57px;
+  text-align: center;
+  text-decoration-line: underline;
+  color: var(--black);
+  margin-bottom: 50px;
+}
+h3.heading {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 35px;
+  line-height: 48px;
+  text-transform: uppercase;
+  color: var(--white);
+  padding: 10px 20px;
+  mix-blend-mode: normal;
+  background-color: var(--red);
+}
+
+h4.heading {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 30px;
+  color: var(--l-black);
+  padding-left: 10px;
+  margin: 26px 0;
+}
+
+h5.heading {
+  font-family: "Noto Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 23px;
+  margin-top: 25px;
+  padding-left: 10px;
+  color: var(--black);
+}
+.hidden{
+  display: none !important;
+}
+.not-found{
+  height: 50vh;
+}
