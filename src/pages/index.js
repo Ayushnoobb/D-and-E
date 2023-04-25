@@ -34,7 +34,7 @@ import Image from "next/image";
 
 const marker = Permanent_Marker({ subsets: ["latin"] , weight:["400"] });
 export default function Home() {
-
+  console.log(process.env.GOOGLE_ID)
   return (
     <>
         <section className="hero">
