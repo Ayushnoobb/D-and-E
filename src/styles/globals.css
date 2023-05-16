@@ -463,6 +463,8 @@ article p {
 
 .popular__wrapper {
   gap: 53px;
+  max-width: 1237px;
+  margin-inline: auto;
 }
 .popular img {
   max-height: 330px;
@@ -487,6 +489,8 @@ article p {
 }
 .news__wrapper {
   gap: 41px;
+  max-width: 1237px;
+  margin-inline: auto;
 }
 
 .week {
@@ -511,6 +515,8 @@ article p {
 .weekly__wrapper {
   gap: 39px;
   margin-bottom: 60px;
+  max-width: 1237px;
+  margin-inline: auto;
 }
 .weekly__content p {
   margin-bottom: 10px;
@@ -607,4 +613,25 @@ article p {
 
 .date {
   font-weight: lighter;
+}
+
+.gallery__container {
+  background-color: var();
+}
+.gallery__container aside {
+  flex: 1 1 25%;
+}
+.gallery__container main {
+  flex: 2 1 75%;
+}
+
+.products {
+  align-items: stretch;
+}
+
+.product > a > img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
 }/*# sourceMappingURL=globals.css.map */

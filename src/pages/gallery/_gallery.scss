@@ -1,0 +1,24 @@
+.gallery{
+  &__container{
+      background-color: var();
+    aside{
+      flex : 1 1 25% ;
+    }
+    main{
+      flex : 2 1 75%
+    }
+  }
+}
+.products{
+  // display: flex;
+  // flex-wrap: wrap;
+  align-items: stretch;
+}
+.product > a > img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+// .product-section{
+//   min-height: 100dvh;
+// }

@@ -175,6 +175,8 @@ article  {
 .popular{
   &__wrapper{
     gap: 53px;
+    max-width:1237px;
+    margin-inline: auto;
   }
   img{
     max-height: 330px;
@@ -205,6 +207,8 @@ article  {
 
   &__wrapper{
     gap: 41px;
+    max-width:1237px;
+    margin-inline: auto;
   }
 }
 
@@ -233,6 +237,8 @@ article  {
   &__wrapper{
     gap: 39px;
     margin-bottom: 60px;
+    max-width:1237px;
+    margin-inline: auto;
   }
   &__content{
 

@@ -1,8 +1,15 @@
 import React from "react";
 import { useSession } from "next-auth/react";
-// import { Link } from "react-router-dom";
+
+
+
+// import AOS from 'aos'
+// import 'aos/dist/aos.css'
+
+
+import { useRouter } from "next/router";
+
 import Link from "next/link";
-import Button from "../button/Button";
 import { signOut, signIn } from "next-auth/react";
 
 import { Peralta } from "next/font/google";
@@ -10,9 +17,13 @@ const peralta = Peralta({ subsets: ["latin"] , weight:["400"] });
 
 function Navbar() {
   const { data: session } = useSession();
+
   let  user ;
   session ? user = session.user.name : user = '';
-  // let user
+
+  let location = useRouter()
+  // console.log(location.asPath)
+
 
   return (
     <>
